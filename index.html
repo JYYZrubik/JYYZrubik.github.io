@@ -8,7 +8,13 @@
 		<script type="text/javascript">
 			function mes()
 			{
-				alert("欢迎光临！")
+				var s=document.lastModified;
+				var t=new Date();
+				var d=t.getDate()-s.substr(s.indexOf("/")+1,2);
+				if(d==0)
+				{alert("今天刚更新哦！")}
+				else
+				{alert("好懒的开发者，都已经"+d+"天没更新了！")}
 			}
 		</script>
 		<title>一中华侨邱中联合魔方网</title>
