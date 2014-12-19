@@ -43,6 +43,7 @@
 		<p>一个HTML文档也被称为<strong>网页</strong>。</p>
 		<p>所谓浏览器其实就是阅读并解析html标签的工具而已。</p>
 		<p>这里我必须插个广告，<a href="http://w3school.com.cn">w3school.com.cn</a>是个非常好的免费在线Web技术教程，只有少量可以忍耐的广告，并且该网站的词语使用非常平和且易懂，是个不可多得的学习网站。你甚至可以找到它的全站打包，CHM格式，在安卓上有CHM阅读器可以帮助。不过在使用全站打包之前请注意打包日期。</p>
+		<p><a href="template.html">这里</a>有一些东西必须看一下。</p>
 		<p>下面列举一些比较常用的标签：</p>
 		<ul>
 			<li>p标签，标记一个段落(paragraph)。
@@ -68,19 +69,22 @@
 					<li><strong>注意：img标签并没有结束标签。像这种没有结束标签的标签，它们叫做空标签，其结束方式为最后的斜杠。</strong></li>
 				</ul>
 			</li>
-			<li>
+			<li>ul、ol、li标签，用来标记一个列表，比如左边的这个点，以及下边“杂七杂八”左边的数字。
 				<ul>
-					<li>。</li>
-					<li></li>
+					<li>用法：&lt;ul&gt;&lt;li&gt;这里是一些文本文本&lt;/li&gt;&lt;li&gt;这里又是一些文本文本&lt;/li&gt;&lt;/ul&gt;</li>
+					<li>ul是无序列表，ol是有序列表，li定义列表中的一项。<strong>嵌套需要在li中进行。</strong></li>
 				</ul>
 			</li>
+			另外还有div,br,table,script,div等标签都必须了解，这里不再赘述。同样css也必须学习一部分。</p>
 		</ul>
 		<h4><a id="clone">复制并编辑本地代码仓</a></h4>
 		<h4><a id="push">将本地代码仓推至服务器</a></h4>
 		<h4><a id="other">杂七杂八</a></h4>
 		<ol>
 			<li>作为一个有强迫症的人，我要求(同时也是每个W3C人的要求，因为现在有大量糟糕的网页)我们的每个页面都必须通过<a href="http://validator.w3.org/">W3C验证器</a>的验证。</li>
-			<li>我们的网站必须符合"语义"的要求。它虽然有点晦涩，但是在以后的维护中会有非常大的作用。关于语义的要求，请阅读。</li>
+			<li>我们的网站必须符合"语义"的要求。它虽然有点晦涩，但是在以后的维护中会有非常大的作用。关于语义的要求，请阅读上面的教学网站里的相关文章。</li>
+			<li>为了i18n(internationalization这单词真他喵太长所以取首末字母并且中间省略了18个字母)的要求所以所有文件都必须保存为UTF-8格式。</li>
+			<li>不要使用Windows内置的记事本(notepad.exe)。它的UTF-8带BOM，而我们不要它。所以请使用诸如sublime text之类的可选编码的编辑器。</li>
 		</ol>
 		<script type="text/javascript">var cnzz_protocol=(("https:"==document.location.protocol)?"https://":"http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253625542'%3E%3C/span%3E%3Cscript src='"+cnzz_protocol+"s11.cnzz.com/z_stat.php%3Fid%3D1253625542%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 	</body>
