@@ -85,9 +85,10 @@
 		<p>安装的过程就一直下一步就行了，当然改安装位置也是可以的。</p>
 		<p>完了之后桌面上就出现了Git Bash和Git GUI，第一个是命令行界面，第二个是图形化界面。当然图形化我用不习惯，所以下面只介绍命令行下的操作。</p>
 		<p>注意，以下所有的命令都有$在开头，那个$也是你们看到的输入位置前面的$。换句话说，不用理它。</p>
-		<p>切换目录命令：$ cd 要切换到的目录</p>
+		<p>切换目录命令：</p>
+		<p class="cmd">$ cd 要切换到的目录</p>
 		<p>切换到要保存这个网页的目录之后，我们就可以下载了：</p>
-		<p>$ git clone https://github.com/jyyzrubik/jyyzrubik.github.io</p>
+		<p class="cmd">$ git clone https://github.com/jyyzrubik/jyyzrubik.github.io</p>
 		<p>直到再显示$ 之后，下载完成。这时可以exit。</p>
 		<p>编辑它们！</p>
 		<p>不过在这之前先看一下上面那个得看一下的东西。</p>
@@ -102,9 +103,9 @@
 		<p>master-for-届数-姓名拼音</p>
 		<p>因为93届只有我一人，所以我自己的名字省了。但是94和95以及以后都应该不止一人，所以，名字。</p>
 		<p>然后我们来切换分支。注意这时如果在之前安装的时候你是一路next下去的话它增添了右键菜单所以你可以直接右键Git Bash而不需要每次都cd。不过1.9.5的Bug就是这样会导致前面的那个explorer卡死，退出git又回复正常。现在最新版是2.2.1，不过得下载源代码自己编译。我知道你们中的大多数人都不会这么做的。</p>
-		<p>$ git branch 分支名</p>
+		<p class="cmd">$ git branch 分支名</p>
 		<p>这样就创建了一个以分支名为分支名的新分支。</p>
-		<p>$ git checkout 分支名</p>
+		<p class="cmd">$ git checkout 分支名</p>
 		<p>这样就把代码仓切换到了一个新的分支。</p>
 		<p>然后改啊改，改啊改，改完就把它<a href="#push">推到远端</a>吧。</p>
 		<p>For Android:</p>
@@ -121,10 +122,45 @@
 		<p>路径嘛…你爱填哪就填哪。</p>
 		<p>别忘了开网络。</p>
 		<p>等到下载完成后，就改改改。</p>
+		<p>等会，又忘了切换分支了。</p>
+		<p>文件，git，分支，创建分支，填新分支名。</p>
+		<p>印象中弄完还得文件，git，效验，改分支。然后改啊改。</p>
 		<p>For OL：</p>
 		<p>容易。直接点一个文档，正文内容右上角有个Raw Blame History，再右边有个笔，嗯然后不用我说了吧？</p>
 		<p>增加文件的话在branch:master后面的JYYZrubik什么后面有一个加号，嗯然后懂了吧？</p>
 		<h4><a id="push">将本地代码仓推至服务器</a></h4>
+		<p>写完了，怎么保存上去呢？</p>
+		<p>For Windows:</p>
+		<p>再次打开Git Bash。</p>
+		<p class="cmd">$ git add --all</p>
+		<p>这一个命令让git得以记录有哪些文件被更改了。</p>
+		<p class="cmd">$ git commit -m "commit信息"</p>
+		<p>这里的信息可以随便填，不过它应该尽量简短并能说明你做出了哪些更改，比如Add something就是一个比较差劲的信息。可以去找一个教你更好地填commit信息的文章。</p>
+		<p>回车。。。咦怎么被拒绝回来了？还带一大段东西？</p>
+		<p>Please tell me who you are.</p>
+		<p>按照它的指引吧。</p>
+		<p class="cmd">$ git config --global user.name "你的注册名"</p>
+		<p class="cmd">$ git config --global user.email "你的注册邮箱"</p>
+		<p>然后再执行commit，嗯这次没问题了。</p>
+		<p>以后就不需要再config了。</p>
+		<p>然后把它推(push)上去：</p>
+		<p class="cmd">$ git push</p>
+		<p>等一会，它会做自己需要做的事情。当然你也可以强迫症地这样写push，可以避开那一大段啰啰嗦嗦的文字：</p>
+		<p class="cmd">$ git push origin 分支名</p>
+		<p>两个，随便你选。</p>
+		<p>等一会，它会要求你输入用户名和密码。注意输入密码的时候它没反应。没关系，它是故意的，你只理睬你自己的输入然后回车即可。</p>
+		<p>然后就是它自己各种写。。。完成！</p>
+		<p>For Android:</p>
+		<p>嗯，还是AIDE。</p>
+		<p>文件，git，提交。</p>
+		<p>现在相当于git add。右上角的加号。或者删除更改(相当于白做功夫)。</p>
+		<p>当然是加号了，填commit信息确定。</p>
+		<p>文件，git，推。</p>
+		<p>记得开网络连接。然后等一会它要求你输入用户名，确认，密码，确认。Writing objecs，完成。</p>
+		<p>For OL:</p>
+		<p>写完填commit信息后确认就OK了。</p>
+		<p><strong>最后还必须合并。回到<a href="https://github.com/JYYZrubik/JYYZrubik.github.io">网页</a>，分支改master，有没有一个黄色长条里面的绿色按钮？有的话最好。点它，然后接连有几个画面，都选第一个绿色按钮，最后一次绿色按钮点了之后又会出现一次确认，直到两个绿色按钮变成一个，修改完毕！如果</strong></p>
+		<p><strong>如果最初没看到黄色长条，那么切换到你的分支，找到Pull Request在branch下面一行的右边。点击pulPull request，然后又是绿色开道。</strong></p>
 		<h4><a id="other">杂七杂八</a></h4>
 		<ol>
 			<li>作为一个有强迫症的人，我要求(同时也是每个W3C人的要求，因为现在有大量糟糕的网页)我们的每个页面都必须通过<a href="http://validator.w3.org/">W3C验证器</a>的验证。</li>
