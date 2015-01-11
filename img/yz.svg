@@ -4,6 +4,11 @@
 	<circle cx="100" cy="100" r="60" fill="white" stroke="black"/>
 	<line x1="100" y1="20" x2="100" y2="40" stroke="#000000"/>
 	<line x1="151.9615" y1="70" x2="169.2820" y2="60" stroke="#000000"/>
+	<line x1="48.0385" y1="70" x2="30.7180" y2="60" stroke="#000000"/>
+	<line x1="151.9615" y1="130" x2="169.2820" y2="140" stroke="#000000"/>
+	<line x1="48.0385" y1="130" x2="30.7180" y2="140" stroke="#000000"/>
+	<line x1="100" y1="180" x2="100" y2="160" stroke="#000000"/>
+<!--Face U-->
 	<polygon points="100,40 82.6795,50 100,60 117.3205,50" fill="blue" stroke="black"/>
 	<polygon points="82.6795,50 65.3590,60 82.6795,70 100,60" fill="green" stroke="black"/>
 	<polygon points="65.3590,60 48.0385,70 65.3590,80 82.6795,70" fill="green" stroke="black"/>
@@ -13,5 +18,25 @@
 	<polygon points="134.6410,60 117.3205,70 134.6410,80 151.9615,70" fill="blue" stroke="black"/>
 	<polygon points="117.3205,70 100,80 117.3205,90 134.6410,80" fill="green" stroke="black"/>
 	<polygon points="100,80 82.6795,90 100,100 117.3205,90" fill="green" stroke="black"/>
-<!--	<path d="M100 100 L156.6469 43.19571 A80 80 0 0 1 180 100 Z" fill="#000000" stroke="none"/>-->
+	<!--Face F-->
+	<polygon points="48.0385,70 65.3590,80 65.3590,100 48.0385,90" fill="red" stroke="black"/>
+	<polygon points="48.0385,90 65.3590,100 65.3590,120 48.0385,110" fill="red" stroke="black"/>
+	<polygon points="48.0385,110 65.3590,120 65.3590,140 48.0385,130" fill="red" stroke="black"/>
+	<polygon points="65.3590,80 65.3590,100 82.6795,110 82.6795,90" fill="red" stroke="black"/>
+	<polygon points="65.3590,100 65.3590,120 82.6795,130 82.6795,110" fill="orange" stroke="black"/>
+	<polygon points="65.3590,120 65.3590,140 82.6795,150 82.6795,130" fill="red" stroke="black"/>
+	<polygon points="82.6795,110 82.6795,90 100,100 100,120" fill="orange" stroke="black"/>
+	<polygon points="82.6795,130 82.6795,110 100,120 100,140" fill="orange" stroke="black"/>
+	<polygon points="82.6795,150 82.6795,130 100,140 100,160" fill="orange" stroke="black"/>
+	<!--Face R-->
+	<polygon points="100,100 100,120 117.3205,110 117.3205,90" fill="yellow" stroke="black"/>
+	<polygon points="100,120 100,140 117.3205,130 117.3205,110" fill="white" stroke="black"/>
+	<polygon points="100,140 100,160 117.3205,150 117.3205,130" fill="white" stroke="black"/>
+	<polygon points="117.3205,110 117.3205,90 134.6410,80 134.6410,100" fill="white" stroke="black"/>
+	<polygon points="117.3205,130 117.3205,110 134.6410,100 134.6410,120" fill="white" stroke="black"/>
+	<polygon points="117.3205,150 117.3205,130 134.6410,120 134.6410,140" fill="yellow" stroke="black"/>
+	<polygon points="134.6410,80 134.6410,100 151.9615,90 151.9615,70" fill="yellow" stroke="black"/>
+	<polygon points="134.6410,100 134.6410,120 151.9615,110 151.9615,90" fill="white" stroke="black"/>
+	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>	
+	<!--	<path d="M100 100 L156.6469 43.19571 A80 80 0 0 1 180 100 Z" fill="#000000" stroke="none"/>-->
 </svg>
