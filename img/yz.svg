@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-1 -1 201 201">
 	<circle cx="100" cy="100" r="100" fill="white" stroke="black"/>
 	<circle cx="100" cy="100" r="80" fill="white" stroke="black"/>
 	<circle cx="100" cy="100" r="60" fill="white" stroke="black"/>
@@ -8,7 +8,15 @@
 	<line x1="151.9615" y1="130" x2="169.2820" y2="140" stroke="#000000"/>
 	<line x1="48.0385" y1="130" x2="30.7180" y2="140" stroke="#000000"/>
 	<line x1="100" y1="180" x2="100" y2="160" stroke="#000000"/>
-<!--Face U-->
+	<!--Circle-->
+	<path d="M100 100 L100 20 A80 80 0 0 1 169.2820 60 Z" fill="blue" stroke="none"/>
+	<path d="M100 100 L169.2820 60 A80 80 0 0 1 169.2820 140 Z" fill="red" stroke="none"/>
+	<path d="M100 100 L100 180 A80 80 0 0 0 169.2820 140 Z" fill="yellow" stroke="none"/>
+	<path d="M100 100 L100 180 A80 80 0 0 1 30.7180 140 Z" fill="green" stroke="none"/>
+	<path d="M100 100 L30.7180 60 A80 80 0 0 0 30.7180 140 Z" fill="orange" stroke="none"/>
+	<path d="M100 100 L100 20 A80 80 0 0 0 30.7180 60 Z" fill="white" stroke="none"/>
+	<circle cx="100" cy="100" r="60" fill="white" stroke="black"/>
+	<!--Face U-->
 	<polygon points="100,40 82.6795,50 100,60 117.3205,50" fill="blue" stroke="black"/>
 	<polygon points="82.6795,50 65.3590,60 82.6795,70 100,60" fill="green" stroke="black"/>
 	<polygon points="65.3590,60 48.0385,70 65.3590,80 82.6795,70" fill="green" stroke="black"/>
@@ -37,6 +45,5 @@
 	<polygon points="117.3205,150 117.3205,130 134.6410,120 134.6410,140" fill="yellow" stroke="black"/>
 	<polygon points="134.6410,80 134.6410,100 151.9615,90 151.9615,70" fill="yellow" stroke="black"/>
 	<polygon points="134.6410,100 134.6410,120 151.9615,110 151.9615,90" fill="white" stroke="black"/>
-	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>	
-	<!--	<path d="M100 100 L156.6469 43.19571 A80 80 0 0 1 180 100 Z" fill="#000000" stroke="none"/>-->
+	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>
 </svg>
