@@ -47,5 +47,5 @@
 	<polygon points="134.6410,100 134.6410,120 151.9615,110 151.9615,90" fill="white" stroke="black"/>
 	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>
 	<!--Texts-->
-	<text x="5" y="95" font-family="monospace" font-size="18">Y</text>
+	<text x="95.5" y="109" font-family="monospace" font-size="18" transform="translate(-89.807303 5.886281) rotate(82.5 100 100)">Y</text>
 </svg>
