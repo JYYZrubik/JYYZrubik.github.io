@@ -47,28 +47,28 @@
 	<polygon points="134.6410,100 134.6410,120 151.9615,110 151.9615,90" fill="white" stroke="black"/>
 	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>
 	<!--Texts-->
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(86.25 100 100)">Y</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(78.75 100 100)">I</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(71.25 100 100)">Z</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(63.75 100 100)">H</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(56.25 100 100)">O</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(48.75 100 100)">N</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(41.25 100 100)">G</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(33.75 100 100)"> </text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(26.25 100 100)">C</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(18.75 100 100)">U</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(11.25 100 100)">B</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(3.75 100 100)">E</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-3.75 100 100)"> </text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-11.25 100 100)">A</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-18.75 100 100)">S</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-26.25 100 100)">S</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-33.75 100 100)">O</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-41.25 100 100)">C</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-48.75 100 100)">I</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-56.25 100 100)">A</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-63.75 100 100)">T</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-71.25 100 100)">I</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-78.75 100 100)">O</text>
-	<text x="96.5" y="195" font-family="monospace" font-size="18" transform="rotate(-86.25 100 100)">N</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(86.25 100 100)">Y</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(78.75 100 100)">I</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(71.25 100 100)">Z</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(63.75 100 100)">H</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(56.25 100 100)">O</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(48.75 100 100)">N</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(41.25 100 100)">G</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(33.75 100 100)"> </text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(26.25 100 100)">C</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(18.75 100 100)">U</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(11.25 100 100)">B</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(3.75 100 100)">E</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-3.75 100 100)"> </text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-11.25 100 100)">A</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-18.75 100 100)">S</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-26.25 100 100)">S</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-33.75 100 100)">O</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-41.25 100 100)">C</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-48.75 100 100)">I</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-56.25 100 100)">A</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-63.75 100 100)">T</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-71.25 100 100)">I</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-78.75 100 100)">O</text>
+	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(-86.25 100 100)">N</text>
 </svg>
