@@ -1,14 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 200">
 	<circle cx="100" cy="100" r="100" fill="white" stroke="none"/>
 	<circle cx="100" cy="100" r="80" fill="white" stroke="black"/>
-	<!--Lines-->
+	<!--线条们-->
+	<!--线条的端点坐标参考下面色块。-->
 	<line x1="100" y1="20" x2="100" y2="40" stroke="#000000"/>
 	<line x1="151.9615" y1="70" x2="169.2820" y2="60" stroke="#000000"/>
 	<line x1="48.0385" y1="70" x2="30.7180" y2="60" stroke="#000000"/>
 	<line x1="151.9615" y1="130" x2="169.2820" y2="140" stroke="#000000"/>
 	<line x1="48.0385" y1="130" x2="30.7180" y2="140" stroke="#000000"/>
 	<line x1="100" y1="180" x2="100" y2="160" stroke="#000000"/>
-	<!--Circles-->
+	<!--圆环们-->
+	<!--先做扇形，再用一个圆盖住中间部分。左边仍然参考下边色块。-->
 	<path d="M100 100 L100 20 A80 80 0 0 1 169.2820 60 Z" fill="blue" stroke="none"/>
 	<path d="M100 100 L169.2820 60 A80 80 0 0 1 169.2820 140 Z" fill="red" stroke="none"/>
 	<path d="M100 100 L100 180 A80 80 0 0 0 169.2820 140 Z" fill="yellow" stroke="none"/>
@@ -16,7 +18,10 @@
 	<path d="M100 100 L30.7180 60 A80 80 0 0 0 30.7180 140 Z" fill="orange" stroke="none"/>
 	<path d="M100 100 L100 20 A80 80 0 0 0 30.7180 60 Z" fill="white" stroke="none"/>
 	<circle cx="100" cy="100" r="60" fill="white" stroke="black"/>
-	<!--Face U-->
+	<!--上面的色块们-->
+	<!--x轴向右，y轴向下，左上角顶点为(0,0)。
+	y轴坐标的取值为20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180。
+	x轴坐标的取值为30.7180 , 48.0385 , 65.3590 , 82.6795 , 100 , 117.3205 , 134.6410 , 151.9615 , 169.2820-->
 	<polygon points="100,40 82.6795,50 100,60 117.3205,50" fill="blue" stroke="black"/>
 	<polygon points="82.6795,50 65.3590,60 82.6795,70 100,60" fill="green" stroke="black"/>
 	<polygon points="65.3590,60 48.0385,70 65.3590,80 82.6795,70" fill="green" stroke="black"/>
@@ -26,7 +31,7 @@
 	<polygon points="134.6410,60 117.3205,70 134.6410,80 151.9615,70" fill="blue" stroke="black"/>
 	<polygon points="117.3205,70 100,80 117.3205,90 134.6410,80" fill="green" stroke="black"/>
 	<polygon points="100,80 82.6795,90 100,100 117.3205,90" fill="green" stroke="black"/>
-	<!--Face F-->
+	<!--前面的色块们-->
 	<polygon points="48.0385,70 65.3590,80 65.3590,100 48.0385,90" fill="red" stroke="black"/>
 	<polygon points="48.0385,90 65.3590,100 65.3590,120 48.0385,110" fill="red" stroke="black"/>
 	<polygon points="48.0385,110 65.3590,120 65.3590,140 48.0385,130" fill="red" stroke="black"/>
@@ -36,7 +41,7 @@
 	<polygon points="82.6795,110 82.6795,90 100,100 100,120" fill="orange" stroke="black"/>
 	<polygon points="82.6795,130 82.6795,110 100,120 100,140" fill="orange" stroke="black"/>
 	<polygon points="82.6795,150 82.6795,130 100,140 100,160" fill="orange" stroke="black"/>
-	<!--Face R-->
+	<!--右面的色块们-->
 	<polygon points="100,100 100,120 117.3205,110 117.3205,90" fill="yellow" stroke="black"/>
 	<polygon points="100,120 100,140 117.3205,130 117.3205,110" fill="white" stroke="black"/>
 	<polygon points="100,140 100,160 117.3205,150 117.3205,130" fill="white" stroke="black"/>
@@ -46,7 +51,9 @@
 	<polygon points="134.6410,80 134.6410,100 151.9615,90 151.9615,70" fill="yellow" stroke="black"/>
 	<polygon points="134.6410,100 134.6410,120 151.9615,110 151.9615,90" fill="white" stroke="black"/>
 	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>
-	<!--Texts-->
+	<!--文字们-->
+	<!--文字在(95.5,195)开始放置，然后以全图中心点(100,100)为旋转中心旋转度数为3.75+7.5n。
+	等宽字体，据说文字就是长二宽一的矩形，并且text它从文字右下角端点开始绘制，所以字号18意味着x坐标为100-18/2/2=95.5。-->
 	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(86.25 100 100)">Y</text>
 	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(78.75 100 100)">I</text>
 	<text x="95.5" y="195" font-family="monospace" font-size="18" transform="rotate(71.25 100 100)">Z</text>
