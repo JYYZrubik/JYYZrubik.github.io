@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 200">
+	<!--x轴向右，y轴向下，左上角顶点为(0,0)。
+	y轴坐标的取值为20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180。
+	x轴坐标的取值为30.7180 , 48.0385 , 65.3590 , 82.6795 , 100 , 117.3205 , 134.6410 , 151.9615 , 169.2820-->
+	<polygon points="100,40 82.6795,50 100,60 117.3205,50" fill="white" stroke="black"/>
+	<polygon points="82.6795,50 65.3590,60 82.6795,70 100,60" fill="white" stroke="black"/>
+	<polygon points="65.3590,60 48.0385,70 65.3590,80 82.6795,70" fill="white" stroke="black"/>
+	<polygon points="100,60 117.3205,70 134.6410,60 117.3205,50" fill="white" stroke="black"/>
+	<polygon points="100,60 117.3205,70 100,80 82.6795,70" fill="white" stroke="black"/>
+	<polygon points="65.3590,80 82.6795,90 100,80 82.6795,70" fill="white" stroke="black"/>
+	<polygon points="134.6410,60 117.3205,70 134.6410,80 151.9615,70" fill="white" stroke="black"/>
+	<polygon points="117.3205,70 100,80 117.3205,90 134.6410,80" fill="white" stroke="black"/>
+	<polygon points="100,80 82.6795,90 100,100 117.3205,90" fill="white" stroke="black"/>
+	<!--前面的色块们-->
+	<polygon points="48.0385,70 65.3590,80 65.3590,100 48.0385,90" fill="red" stroke="black"/>
+	<polygon points="48.0385,90 65.3590,100 65.3590,120 48.0385,110" fill="white" stroke="black"/>
+	<polygon points="48.0385,110 65.3590,120 65.3590,140 48.0385,130" fill="red" stroke="black"/>
+	<polygon points="65.3590,80 65.3590,100 82.6795,110 82.6795,90" fill="red" stroke="black"/>
+	<polygon points="65.3590,100 65.3590,120 82.6795,130 82.6795,110" fill="red" stroke="black"/>
+	<polygon points="65.3590,120 65.3590,140 82.6795,150 82.6795,130" fill="red" stroke="black"/>
+	<polygon points="82.6795,110 82.6795,90 100,100 100,120" fill="red" stroke="black"/>
+	<polygon points="82.6795,130 82.6795,110 100,120 100,140" fill="white" stroke="black"/>
+	<polygon points="82.6795,150 82.6795,130 100,140 100,160" fill="white" stroke="black"/>
+	<!--右面的色块们-->
+	<polygon points="100,100 100,120 117.3205,110 117.3205,90" fill="yellow" stroke="black"/>
+	<polygon points="100,120 100,140 117.3205,130 117.3205,110" fill="white" stroke="black"/>
+	<polygon points="100,140 100,160 117.3205,150 117.3205,130" fill="white" stroke="black"/>
+	<polygon points="117.3205,110 117.3205,90 134.6410,80 134.6410,100" fill="white" stroke="black"/>
+	<polygon points="117.3205,130 117.3205,110 134.6410,100 134.6410,120" fill="yellow" stroke="black"/>
+	<polygon points="117.3205,150 117.3205,130 134.6410,120 134.6410,140" fill="yellow" stroke="black"/>
+	<polygon points="134.6410,80 134.6410,100 151.9615,90 151.9615,70" fill="yellow" stroke="black"/>
+	<polygon points="134.6410,100 134.6410,120 151.9615,110 151.9615,90" fill="white" stroke="black"/>
+	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>
+	<!--在揭阳一中魔方队队徽的基础上修改并叠加-->
+	<polygon points="100,40 82.6795,50 82.6795,70 100,80 117.3205,70 117.3205,50" fill="white" stroke="black"/>
+	<!--y 轴坐标的取值为 40,43.3333,46.6667,50,53.3333,56.6667,60,66.6667,73.3333,80-->
+	<!--x 轴坐标的取值为 82.6795 , 88.4530 , 94.2265 , 100 , 105.7735 , 111.5470 , 117.3205-->
+	<polygon points="100,40 94.2265,43.3333 100,46.6667 105.7735,43.3333" fill="white" stroke="black"/>
+	<polygon points="94.2265,43.3333 100,46.6667 94.2265,50 88.4530,46.6667 " fill="white" stroke="black"/>
+	<polygon points="94.2265,50 88.4530,46.6667 82.6795,50 88.4530,53.3333" fill="white" stroke="black"/>
+	<polygon points="100,46.6667 105.7735,43.3333 111.5470,46.6667 105.7735,50" fill="white" stroke="black"/>
+	<polygon points="100,46.6667 105.7735,50 100,53.3333 94.2265,50" fill="white" stroke="black"/>
+	<polygon points="100,53.3333 94.2265,50 88.4530,53.3333 94.2265,56.6667" fill="white" stroke="black"/>
+	<polygon points="111.5470,46.6667 117.3205,50 111.5470,53.3333 105.7735,50" fill="white" stroke="black"/>
+	<polygon points="105.7735,50 111.5470,53.3333 105.7735,56.6667 100,53.3333" fill="white" stroke="black"/>
+	<polygon points="100,53.3333 105.7735,56.6667 100,60 94.225,56.6667" fill="white" stroke="black"/>
+	<!--前面的色块们-->
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<!--右面的色块们-->
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+	<polygon points="" fill="" stroke="black"/>
+</svg>
