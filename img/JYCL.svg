@@ -64,4 +64,11 @@
 	<polygon points="111.5470,53.3333 117.3205,50 117.3205,56.6667 111.5470,60" fill="white" stroke="black"/>
 	<polygon points="111.5470,60 117.3205,56.6667 117.3205,63.3333 111.5470,66.6667" fill="white" stroke="black"/>
 	<polygon points="111.5470,66.6667 117.3205,63.3333 117.3205,70 111.5470,73.3333" fill="orange" stroke="black"/>
+	<!--文字们-->
+	<text x="58" y="154" font-size="12">揭</text>
+	<text x="72" y="163" font-size="12">阳</text>
+	<text x="86" y="170" font-size="12">魔</text>
+	<text x="102" y="170" font-size="12">方</text>
+	<text x="116" y="163" font-size="12">联</text>
+	<text x="130" y="154" font-size="12">盟</text>
 </svg>
