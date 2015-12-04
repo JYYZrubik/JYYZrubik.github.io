@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 200">
+<polygon points="0,0 0,200 200,200 200,0" fill="black" stroke="none"/>
+<circle cx="100" cy="100" r="75" fill="none" stroke="rgb(243, 249, 241)"/>
 	<!--x轴向右，y轴向下，左上角顶点为(0,0)。
 	y轴坐标的取值为20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180。
 	x轴坐标的取值为30.7180 , 48.0385 , 65.3590 , 82.6795 , 100 , 117.3205 , 134.6410 , 151.9615 , 169.2820-->
@@ -12,23 +14,23 @@
 	<polygon points="117.3205,70 100,80 117.3205,90 134.6410,80" fill="white" stroke="black"/>
 	<polygon points="100,80 82.6795,90 100,100 117.3205,90" fill="white" stroke="black"/>
 	<!--前面的色块们-->
-	<polygon points="48.0385,70 65.3590,80 65.3590,100 48.0385,90" fill="red" stroke="black"/>
+	<polygon points="48.0385,70 65.3590,80 65.3590,100 48.0385,90" fill="blue" stroke="black"/>
 	<polygon points="48.0385,90 65.3590,100 65.3590,120 48.0385,110" fill="white" stroke="black"/>
-	<polygon points="48.0385,110 65.3590,120 65.3590,140 48.0385,130" fill="red" stroke="black"/>
-	<polygon points="65.3590,80 65.3590,100 82.6795,110 82.6795,90" fill="red" stroke="black"/>
-	<polygon points="65.3590,100 65.3590,120 82.6795,130 82.6795,110" fill="red" stroke="black"/>
-	<polygon points="65.3590,120 65.3590,140 82.6795,150 82.6795,130" fill="red" stroke="black"/>
-	<polygon points="82.6795,110 82.6795,90 100,100 100,120" fill="red" stroke="black"/>
+	<polygon points="48.0385,110 65.3590,120 65.3590,140 48.0385,130" fill="blue" stroke="black"/>
+	<polygon points="65.3590,80 65.3590,100 82.6795,110 82.6795,90" fill="blue" stroke="black"/>
+	<polygon points="65.3590,100 65.3590,120 82.6795,130 82.6795,110" fill="blue" stroke="black"/>
+	<polygon points="65.3590,120 65.3590,140 82.6795,150 82.6795,130" fill="blue" stroke="black"/>
+	<polygon points="82.6795,110 82.6795,90 100,100 100,120" fill="blue" stroke="black"/>
 	<polygon points="82.6795,130 82.6795,110 100,120 100,140" fill="white" stroke="black"/>
 	<polygon points="82.6795,150 82.6795,130 100,140 100,160" fill="white" stroke="black"/>
 	<!--右面的色块们-->
-	<polygon points="100,100 100,120 117.3205,110 117.3205,90" fill="yellow" stroke="black"/>
+	<polygon points="100,100 100,120 117.3205,110 117.3205,90" fill="green" stroke="black"/>
 	<polygon points="100,120 100,140 117.3205,130 117.3205,110" fill="white" stroke="black"/>
 	<polygon points="100,140 100,160 117.3205,150 117.3205,130" fill="white" stroke="black"/>
 	<polygon points="117.3205,110 117.3205,90 134.6410,80 134.6410,100" fill="white" stroke="black"/>
-	<polygon points="117.3205,130 117.3205,110 134.6410,100 134.6410,120" fill="yellow" stroke="black"/>
-	<polygon points="117.3205,150 117.3205,130 134.6410,120 134.6410,140" fill="yellow" stroke="black"/>
-	<polygon points="134.6410,80 134.6410,100 151.9615,90 151.9615,70" fill="yellow" stroke="black"/>
+	<polygon points="117.3205,130 117.3205,110 134.6410,100 134.6410,120" fill="green" stroke="black"/>
+	<polygon points="117.3205,150 117.3205,130 134.6410,120 134.6410,140" fill="green" stroke="black"/>
+	<polygon points="134.6410,80 134.6410,100 151.9615,90 151.9615,70" fill="green" stroke="black"/>
 	<polygon points="134.6410,100 134.6410,120 151.9615,110 151.9615,90" fill="white" stroke="black"/>
 	<polygon points="134.6410,120 134.6410,140 151.9615,130 151.9615,110" fill="white" stroke="black"/>
 	<!--在揭阳一中魔方队队徽的基础上修改并叠加-->
@@ -45,12 +47,12 @@
 	<polygon points="105.7735,50 111.5470,53.3333 105.7735,56.6667 100,53.3333" fill="white" stroke="black"/>
 	<polygon points="100,53.3333 105.7735,56.6667 100,60 94.225,56.6667" fill="white" stroke="black"/>
 	<!--前面的色块们-->
-	<polygon points="82.6795,50 88.4530,53.3333 88.4530,60 82.6795,56.6667" fill="blue" stroke="black"/>
-	<polygon points="82.6795,56.6667 88.4530,60 88.4530,66.6667 82.6795,63.3333" fill="blue" stroke="black"/>
-	<polygon points="82.6795,63.3333 88.4530,66.6667 88.4530,73.3333 82.6795,70" fill="blue" stroke="black"/>
-	<polygon points="88.4530,53.3333 94.2265,56.6667 94.2265,63.3333 88.4530,60" fill="blue" stroke="black"/>
+	<polygon points="82.6795,50 88.4530,53.3333 88.4530,60 82.6795,56.6667" fill="red" stroke="black"/>
+	<polygon points="82.6795,56.6667 88.4530,60 88.4530,66.6667 82.6795,63.3333" fill="red" stroke="black"/>
+	<polygon points="82.6795,63.3333 88.4530,66.6667 88.4530,73.3333 82.6795,70" fill="red" stroke="black"/>
+	<polygon points="88.4530,53.3333 94.2265,56.6667 94.2265,63.3333 88.4530,60" fill="red" stroke="black"/>
 	<polygon points="88.4530,60 94.2265,63.3333 94.2265,70 88.4530,66.6667" fill="white" stroke="black"/>
-	<polygon points="88.4530,66.6667 94.2265,70 94.2265,76.6667 88.4530,73.3333" fill="blue" stroke="black"/>
+	<polygon points="88.4530,66.6667 94.2265,70 94.2265,76.6667 88.4530,73.3333" fill="red" stroke="black"/>
 	<polygon points="94.2265,56.6667 100,60 100,66.6667 94.2265,63.3333" fill="white" stroke="black"/>
 	<polygon points="94.2265,63.3333 100,66.6667 100,73.3333 94.2265,70" fill="white" stroke="black"/>
 	<polygon points="94.2265,70 100,73.3333 100,80 94.2265,76.6667" fill="white" stroke="black"/>
@@ -58,17 +60,17 @@
 	<polygon points="100,60 105.7735,56.6667 105.7735,63.3333 100,66.6667" fill="white" stroke="black"/>
 	<polygon points="100,66.6667 105.7735,63.3333 105.7735,70 100,73.3333" fill="white" stroke="black"/>
 	<polygon points="100,73.3333 105.7735,70 105.7735,76.6667 100,80" fill="white" stroke="black"/>
-	<polygon points="105.7735,56.6667 111.5470,53.3333 111.5470,60 105.7735,63.3333" fill="orange" stroke="black"/>
-	<polygon points="105.7735,63.3333 111.5470,60 111.5470,66.6667 105.7735,70" fill="orange" stroke="black"/>
-	<polygon points="105.7735,70 111.5470,66.6667 111.5470,73.3333 105.7735,76.6667" fill="orange" stroke="black"/>
+	<polygon points="105.7735,56.6667 111.5470,53.3333 111.5470,60 105.7735,63.3333" fill="rgb(255, 57, 0)" stroke="black"/>
+	<polygon points="105.7735,63.3333 111.5470,60 111.5470,66.6667 105.7735,70" fill="rgb(255, 57, 0)" stroke="black"/>
+	<polygon points="105.7735,70 111.5470,66.6667 111.5470,73.3333 105.7735,76.6667" fill="rgb(255, 57, 0)" stroke="black"/>
 	<polygon points="111.5470,53.3333 117.3205,50 117.3205,56.6667 111.5470,60" fill="white" stroke="black"/>
 	<polygon points="111.5470,60 117.3205,56.6667 117.3205,63.3333 111.5470,66.6667" fill="white" stroke="black"/>
-	<polygon points="111.5470,66.6667 117.3205,63.3333 117.3205,70 111.5470,73.3333" fill="orange" stroke="black"/>
+	<polygon points="111.5470,66.6667 117.3205,63.3333 117.3205,70 111.5470,73.3333" fill="rgb(255, 57, 0)" stroke="black"/>
 	<!--文字们-->
-	<text x="58" y="154" font-size="12">揭</text>
-	<text x="72" y="163" font-size="12">阳</text>
-	<text x="86" y="170" font-size="12">魔</text>
-	<text x="102" y="170" font-size="12">方</text>
-	<text x="116" y="163" font-size="12">联</text>
-	<text x="130" y="154" font-size="12">盟</text>
+	<text x="58" y="154" font-size="12" fill="rgb(243, 249, 241)">揭</text>
+	<text x="72" y="163" font-size="12" fill="rgb(243, 249, 241)">阳</text>
+	<text x="86" y="170" font-size="12" fill="rgb(243, 249, 241)">魔</text>
+	<text x="102" y="170" font-size="12" fill="rgb(243, 249, 241)">方</text>
+	<text x="116" y="163" font-size="12" fill="rgb(243, 249, 241)">联</text>
+	<text x="130" y="154" font-size="12" fill="rgb(243, 249, 241)">盟</text>
 </svg>
